@@ -1,0 +1,25 @@
+
+div,form{
+    text-align: center;
+}
+
+h1 {
+text-align: center;
+font-family: 'Franklin Gothic Medium';
+}
+
+body {
+    background-color: #EE7C3F;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium';
+}
+
+button {
+    text-align: center;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium';
+}

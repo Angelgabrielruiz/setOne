@@ -1,0 +1,30 @@
+
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+  <title>C1_A1_233331</title>
+ </head>
+ <body>
+    
+   <h1>Ingrese el tamaño del arreglo y sus valores</h1>
+   <form id="arregloForm">
+     <label for="tamano">Tamaño:</label>
+
+     <input type="number" id="tamano" min="1">
+     <button type="button" id="ingresa">Ingresar Valores</button>
+   </form>
+   <div id="valoresContainer" style="display:none;">
+     <h3>Ingrese los valores del arreglo</h3>
+     <ul id="valoresLista"></ul>
+      <button type="button" id="calcula"> Calcular Pasos</button>
+     <p id="resultadoPasos"></p>
+   </div>
+
+    <script type="module" src="src/main.js"></script>
+ 
+ </body>
+ </html>
+ 
